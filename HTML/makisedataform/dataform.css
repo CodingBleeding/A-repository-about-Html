@@ -1,0 +1,14 @@
+td,
+th {
+    border: thin dotted gray;
+}
+
+table {
+    margin-left: 40px;
+    margin-right: 20px;
+    border: thin solid black;
+}
+
+td.bornone {
+    border: none;
+}
