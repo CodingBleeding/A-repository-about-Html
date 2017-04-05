@@ -1,0 +1,20 @@
+body {
+    background-color: #F5F7FA;
+}
+
+.center {
+    background-color: #D2E9FF;
+    font: 20px Arial, Helvetica, sans-serif;
+    color: #666869;
+}
+
+.center-button {
+    text-decoration: none;
+    background-color: #6385FF;
+    font-size: 15px;
+    color: white;
+}
+
+.center-bottom {
+    color: #6385FF;
+}

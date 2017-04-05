@@ -1,0 +1,38 @@
+body {
+    color: black;
+}
+
+#head {
+    background-color: white;
+}
+
+#edit-left {
+    background-color: #A2A6A6;
+}
+
+#edit-right {
+    background-color: #C7CCCC;
+}
+
+#edit-left-center {
+    background-color: white;
+}
+
+#form-head {
+    background-color: #666869;
+}
+
+#edit-right-head a {
+    background-color: white;
+    color: black;
+}
+
+.choose {
+    background-color: white;
+    border: 1px solid #C7CCCC;
+    color: black;
+}
+
+.submit {
+    background-color: white;
+}

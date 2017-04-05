@@ -1,0 +1,30 @@
+.center {
+    width: 400px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    padding-top: 50px;
+}
+
+input[type=number] {
+    width: 180px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=password] {
+    width: 180px;
+}
+
+.center-button {
+    margin-top: 20px;
+    width: 180px;
+    padding: 6px;
+    border: 1px solid #D2E9FF;
+}
