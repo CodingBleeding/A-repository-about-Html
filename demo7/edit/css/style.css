@@ -33,6 +33,12 @@ body {
     color: black;
 }
 
+#edit-right-submit {
+    background-color: white;
+    border: 1px solid #C7CCCC;
+}
+
 .submit {
     background-color: white;
+    color: black;
 }
