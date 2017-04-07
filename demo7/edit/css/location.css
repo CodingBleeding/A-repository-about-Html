@@ -7,24 +7,19 @@ body {
 }
 
 #head {
-    height: 50px;
+    height: 70px;
     width: 100%;
 }
 
 #edit {
     width: 100%;
-    position: relative;
-    top: 60px;
+    height: 100%;
 }
 
 #edit-left {
     float: left;
     width: 75%;
     height: 100%;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
     overflow: scroll;
 }
 
@@ -32,10 +27,6 @@ body {
     margin-left: 75%;
     width: 400px;
     height: 100%;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
 }
 
 #edit-left-center {
@@ -49,10 +40,25 @@ body {
     height: 70px;
 }
 
+#head p {
+    margin-left: 60px;
+}
+
+#head-bottom {
+    list-style-type: none;
+    margin-left: 60px;
+    padding: 0;
+}
+
 #head-bottom li {
     float: left;
     width: 100px;
     margin-right: 10px;
+}
+
+#head-bottom a {
+    display: block;
+    text-decoration: none;
 }
 
 input {
@@ -87,6 +93,7 @@ textarea {
 
 #edit-right-choose {
     width: 400px;
+    height: 200px;
     padding: 0px 10px;
     margin: 0;
 }
@@ -115,8 +122,6 @@ textarea {
 #edit-right-submit {
     width: 400px;
     height: 100px;
-    position: absolute;
-    top: 200px;
 }
 
 .submit {

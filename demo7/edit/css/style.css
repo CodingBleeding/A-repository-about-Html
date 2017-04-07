@@ -4,14 +4,19 @@ body {
 
 #head {
     background-color: white;
+    font-size: 20px;
+}
+
+#head-bottom {
+    font-size: 17px;
 }
 
 #edit-left {
-    background-color: #A2A6A6;
+    background-color: #E3E0D7;
 }
 
 #edit-right {
-    background-color: #C7CCCC;
+    background-color: #E0DDD4;
 }
 
 #edit-left-center {
@@ -19,7 +24,7 @@ body {
 }
 
 #form-head {
-    background-color: #666869;
+    background-color: #6A6A6A;
 }
 
 #edit-right-head a {
