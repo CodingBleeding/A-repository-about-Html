@@ -3,18 +3,31 @@ body {
 }
 
 .center {
-    background-color: #D2E9FF;
+    background-color: white;
     font: 20px Arial, Helvetica, sans-serif;
     color: #666869;
 }
 
 .center-button {
     text-decoration: none;
-    background-color: #6385FF;
+    background-color: #009AFF;
     font-size: 15px;
     color: white;
 }
 
 .center-bottom {
+    color: #6385FF;
+}
+
+.center-bottom a {
+    text-decoration: none;
+    color: #009AFF;
+}
+
+.center-bottom a:link {
+    color: #009AFF;
+}
+
+.center-bottom a:hover {
     color: #6385FF;
 }

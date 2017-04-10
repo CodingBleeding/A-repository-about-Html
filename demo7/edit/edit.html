@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="text/css" rel="stylesheet" href="css/location.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="../../../library/jquery-3.2.0.min.js"></script>
     <title>edit</title>
 </head>
 
@@ -25,32 +26,40 @@
             <div id="edit-left-center">
                 <div id="form-head"></div>
                 <form action="" method="POST">
-                    <input type="text" name="text" placeholder="未命名表单">
-                    <textarea wrap="physical"></textarea>
+                    <div class="form-text">
+                        <input type="text" name="text" placeholder="未命名表单">
+                    </div>
+                    <div class="form-textarea">
+                        <textarea wrap="physical"></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <input type="submit" value="Submit" id="input-submit">
+                    </div>
                 </form>
             </div>
         </div>
         <div id="edit-right" align="center">
             <ul id="edit-right-head">
-                <li><a href="">添加字段</a></li>
-                <li><a href="">编辑字段</a></li>
-                <li><a href="">表单样式</a></li>
+                <li><a href=""><span>添加字段</span></a></li>
+                <li><a href=""><span>编辑字段</span></a></li>
+                <li><a href=""><span>表单样式</span></a></li>
             </ul>
             <div id="edit-right-choose">
-                <a href="" class="choose"><span class="singletext">单行文字</span></a>
-                <a href="" class="choose"><span class="textarea">多行文字</span></a>
-                <a href="" class="choose"><span class="singlechoose">单项选择</span></a>
-                <a href="" class="choose"><span class="morechoose">多项选择</span></a>
-                <a href="" class="choose"><span class="number">数字</span></a>
-                <a href="" class="choose"><span class="time">时间</span></a>
-                <a href="" class="choose"><span class="date">日期</span></a>
-                <a href="" class="choose"><span class="URL">网址</span></a>
+                <a href="javascript:void(0)" class="choose"><span class="text">单行文字</span></a>
+                <a href="javascript:void(0)" class="choose"><span class="textarea">多行文字</span></a>
+                <a href="javascript:void(0)" class="choose"><span class="singlechoose">单项选择</span></a>
+                <a href="javascript:void(0)" class="choose"><span class="morechoose">多项选择</span></a>
+                <a href="javascript:void(0)" class="choose"><span class="number">数字</span></a>
+                <a href="javascript:void(0)" class="choose"><span class="time">时间</span></a>
+                <a href="javascript:void(0)" class="choose"><span class="date">日期</span></a>
+                <a href="javascript:void(0)" class="choose"><span class="URL">网址</span></a>
             </div>
             <div id="edit-right-submit">
                 <a href="" class="submit">提交表单</a>
             </div>
         </div>
     </div>
+    <script src="js/my_jquery_functions.js"></script>
 </body>
 
 </html>

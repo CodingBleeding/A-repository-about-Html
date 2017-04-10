@@ -7,8 +7,9 @@ body {
     font-size: 20px;
 }
 
-#head-bottom {
+#head-bottom a {
     font-size: 17px;
+    color: black;
 }
 
 #edit-left {
@@ -16,7 +17,7 @@ body {
 }
 
 #edit-right {
-    background-color: #E0DDD4;
+    background-color: #F1F1F1;
 }
 
 #edit-left-center {
@@ -30,6 +31,7 @@ body {
 #edit-right-head a {
     background-color: white;
     color: black;
+    border: 1px solid #E1DED5;
 }
 
 .choose {
@@ -38,12 +40,24 @@ body {
     color: black;
 }
 
+.choose:link,
+#edit-right-head a:link,
+#head-bottom a:link {
+    color: black;
+}
+
+.choose:hover,
+#edit-right-head a:hover,
+#head-bottom a:hover {
+    color: #009AFF;
+}
+
 #edit-right-submit {
     background-color: white;
     border: 1px solid #C7CCCC;
 }
 
 .submit {
-    background-color: white;
+    background-color: #009AFF;
     color: black;
 }
