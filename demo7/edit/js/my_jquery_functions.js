@@ -7,49 +7,62 @@ $(document).ready(function() {
 function add(classname) {
     switch (classname) {
         case "text":
-            var newnode = insertBefore();
+            var newnode = insertbefore();
+            newnode.id = "inserttext";
             var textnode = document.createElement("input");
             var divnode = document.createElement("div");
             divnode.className = "textnode";
+            divnode.innerHTML = "未命名";
             textnode.type = "text";
             textnode.name = "text";
-            newnode.appendChild(divnode);
-            newnode.appendChild(textnode);
+            $("#inserttext").append(divnode, textnode);
             break;
         case "textarea":
-            var newnode = insertBefore();
-            var textareanode = document.createElement("input");
+            var newnode = insertbefore();
+            newnode.id = "inserttextarea";
+            var textareanode = document.createElement("textarea");
             var divnode = document.createElement("div");
+            divnode.innerHTML = "未命名";
             divnode.className = "textareanode";
-            textareanode.type = "textarea";
-            textareanode.name = "textarea";
-            newnode.appendChild(divnode);
-            newnode.appendChild(textareanode);
+            textareanode.wrap = "physical";
+            $("#inserttextarea").append(divnode, textareanode);
             break;
         case "singlechoose":
-            var newnode = insertBefore();
-            var singlechoosenode = document.createElement("input");
-            var divnode = document.createElement("div");
-            divnode.className = "singlechoosenode";
-            textareanode.type = "radio";
-            singlechoosenode.name = "radio";
-            newnode.appendChild(divnode);
-            newnode.appendChild(singlechoosenode);
-
+            var newnode = insertbefore();
+            newnode.id = "insertsingle";
+            var singlechoose = document.createElement("input");
+            var divhead = document.createElement("div");
+            var container = document.createElement("div");
+            var input_container = document.createElement("div");
+            var option = document.createElement("div");
+            singlechoose.type = "radio";
+            singlechoose.name = "radio";
+            option.innerHTML = "选项";
+            divhead.innerHTML = "未命名";
+            divhead.className = "singlechoosenode";
+            input_container.appendChild(singlechoose);
+            container.append(input_container, option);
+            $("#insertsingle").append(divnode, container);
             break;
         case "morechoose":
-            var newnode = insertBefore();
+            var newnode = insertbefore();
+            newnode.id = "insertmore";
             var morechoosenode = document.createElement("input");
-            var divnode = document.createElement("div");
-            divnode.className = "morechoosenode";
-            textareanode.type = "checkbox";
+            var divhead = document.createElement("div");
+            var container = document.createElement("div");
+            var input_container = document.createElement("div");
+            var option = document.createElement("div");
+            option.innerHTML = "选项";
+            divhead.className = "morechoosenode";
+            divhead.innerHTML = "未命名";
+            morechoosenode.type = "checkbox";
             morechoosenode.name = "checkbox";
-            newnode.appendChild(divnode);
-            newnode.appendChild(morechoosenode);
-
+            input_container.append(morechoosenode);
+            container.append(input_container, option);
+            newnode.append(divhead, container, container, container);
             break;
         case "bumber":
-            var newnode = insertBefore();
+            var newnode = insertbefore();
             var numbernode = document.createElement("input");
             var divnode = document.createElement("div");
             divnode.className = "numbernode";
@@ -57,14 +70,12 @@ function add(classname) {
             numbernode.name = "number";
             newnode.appendChild(divnode);
             newnode.appendChild(numbernode);
-
             break;
     }
 }
 
 function insertbefore() {
     var newnode = document.createElement("div");
-    newnode.className = "insertnode";
-    newnode.insertBefore(newnode, document.getElementById("input-submit"));
+    document.getElementById("form").insertBefore(newnode, document.getElementsByClassName("form-submit")[0]);
     return newnode;
 }
