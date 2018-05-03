@@ -1,0 +1,141 @@
+html,
+body {
+    margin: 0px;
+    width: 100%;
+    min-width: 960px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#head {
+    height: 8%;
+    width: 100%;
+}
+
+#head p {
+    margin-left: 60px;
+}
+
+#edit {
+    width: 100%;
+    height: 100%;
+}
+
+#edit-left {
+    float: left;
+    width: 82%;
+    height: 100%;
+}
+
+#edit-right {
+    margin-left: 82%;
+    width: 18%;
+    height: 100%;
+}
+
+#edit-left-center {
+    width: 60%;
+    height: 80%;
+    margin-top: 5%;
+}
+
+#form-head {
+    width: 100%;
+    height: 70px;
+}
+
+#head-bottom {
+    list-style-type: none;
+    margin-left: 60px;
+    padding: 0;
+}
+
+#head-bottom li {
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
+#head-bottom a {
+    display: block;
+    text-decoration: none;
+}
+
+input {
+    width: 80%;
+    margin: 10px auto;
+    height: 20px;
+}
+
+textarea {
+    height: 50px;
+    width: 80%;
+}
+
+#edit-right-head {
+    width: 100%;
+    height: 30px;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+#edit-right-head li {
+    height: 100%;
+    float: left;
+    width: 33%;
+}
+
+#edit-right-head a {
+    display: block;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#edit-right-head span {
+    vertical-align: middle;
+}
+
+#edit-right-choose {
+    width: 100%;
+    height: 200px;
+    padding: 0px 10px;
+    margin: 0;
+}
+
+.choose {
+    display: block;
+    text-decoration: none;
+    float: left;
+    width: 40%;
+    height: 30px;
+    margin: 0px 0px 5px 5px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.choose span {
+    height: auto;
+    width: auto;
+    vertical-align: middle;
+}
+
+#edit-right-submit {
+    width: 100%;
+    height: 70px;
+}
+
+.submit {
+    display: block;
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+    line-height: 40px;
+    font-size: 24px;
+}

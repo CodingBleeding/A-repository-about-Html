@@ -1,0 +1,63 @@
+body {
+    color: black;
+}
+
+#head {
+    background-color: white;
+    font-size: 20px;
+}
+
+#head-bottom a {
+    font-size: 17px;
+    color: black;
+}
+
+#edit-left {
+    background-color: #E3E0D7;
+}
+
+#edit-right {
+    background-color: #F1F1F1;
+}
+
+#edit-left-center {
+    background-color: white;
+}
+
+#form-head {
+    background-color: #6A6A6A;
+}
+
+#edit-right-head a {
+    background-color: white;
+    color: black;
+    border: 1px solid #E1DED5;
+}
+
+.choose {
+    background-color: white;
+    border: 1px solid #C7CCCC;
+    color: black;
+}
+
+.choose:link,
+#edit-right-head a:link,
+#head-bottom a:link {
+    color: black;
+}
+
+.choose:hover,
+#edit-right-head a:hover,
+#head-bottom a:hover {
+    color: #009AFF;
+}
+
+#edit-right-submit {
+    background-color: white;
+    border: 1px solid #C7CCCC;
+}
+
+.submit {
+    background-color: #009AFF;
+    color: black;
+}
